@@ -1,0 +1,99 @@
+.w3-hero {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.w3-hero__grid {
+  position: absolute;
+  inset: 0;
+  opacity: .2;
+  background-image:
+    linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.w3-hero__glow {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  background: radial-gradient(circle,
+    rgba(124,58,237,.25),
+    transparent 70%);
+  transform: translate(-50%, -50%);
+}
+
+.w3-badge {
+  display: inline-block;
+  background: rgba(124,58,237,.12);
+  border: 1px solid rgba(124,58,237,.3);
+  padding: 8px 16px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  color: #c4b5fd;
+  font-size: .8rem;
+}
+
+.w3-hero__heading {
+  font-size: 4rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.w3-hero__heading span {
+  color: var(--c-cyan);
+}
+
+.w3-hero__desc {
+  color: var(--c-muted);
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.w3-btn-primary {
+  background: var(--grad-brand);
+  color: white !important;
+  border-radius: 50px;
+  padding: 12px 26px;
+  margin-right: 12px;
+}
+
+.w3-btn-secondary {
+  border: 1px solid var(--c-green);
+  color: var(--c-green-lt) !important;
+  border-radius: 50px;
+  padding: 12px 26px;
+}
+
+.w3-card {
+  background: rgba(255,255,255,.04);
+  border: 1px solid var(--c-border);
+  border-radius: 20px;
+  padding: 30px;
+  backdrop-filter: blur(20px);
+}
+
+.w3-tag {
+  color: var(--c-cyan);
+  margin-bottom: 15px;
+  font-size: .8rem;
+}
+
+.w3-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.w3-card h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.w3-card p {
+  color: var(--c-muted);
+}

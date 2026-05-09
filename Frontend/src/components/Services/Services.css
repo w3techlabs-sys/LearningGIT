@@ -1,0 +1,33 @@
+.services-section {
+  padding: 100px 0;
+  background: linear-gradient(
+    135deg,
+    #fff6f0 0%,
+    #f4ecff 100%
+  );
+}
+
+.services-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.services-header span {
+  color: #6b3cff;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.services-header h2 {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 15px 0;
+  color: #111;
+}
+
+.services-header p {
+  max-width: 650px;
+  margin: auto;
+  color: #666;
+  line-height: 1.8;
+}

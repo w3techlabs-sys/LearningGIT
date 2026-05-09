@@ -1,0 +1,19 @@
+:root {
+  --c-bg: #050d1a;
+  --c-purple: #7c3aed;
+  --c-blue: #2563eb;
+  --c-cyan: #22d3ee;
+  --c-green: #10b981;
+  --c-green-lt: #34d399;
+  --c-text: #e2e8f0;
+  --c-muted: #94a3b8;
+  --c-border: rgba(255, 255, 255, 0.08);
+
+  --grad-brand: linear-gradient(135deg, #7c3aed, #2563eb);
+
+  --r-lg: 20px;
+  --r-md: 12px;
+  --r-sm: 8px;
+
+  --ease: 0.3s cubic-bezier(.4,0,.2,1);
+}

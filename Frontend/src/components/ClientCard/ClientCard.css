@@ -1,0 +1,34 @@
+.client-card {
+  height: 130px;
+  width: 100%;
+  border-radius: 22px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  transition: all 0.35s ease;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.client-card__logo {
+  width: 100%;
+  max-width: 140px;
+  max-height: 55px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.35s ease;
+}
+
+.client-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+}
+
+.client-card:hover .client-card__logo {
+  filter: grayscale(0%);
+  opacity: 1;
+}

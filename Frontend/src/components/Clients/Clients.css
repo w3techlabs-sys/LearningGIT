@@ -1,0 +1,78 @@
+.clients-section {
+  padding: 100px 0;
+  background: #f8fafc;
+}
+
+.clients-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.clients-header span {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #7c3aed;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.clients-header h2 {
+  font-size: 46px;
+  font-weight: 800;
+  color: #111827;
+  margin-bottom: 18px;
+}
+
+.clients-header p {
+  max-width: 650px;
+  margin: auto;
+  color: #64748b;
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+/* 5 cards desktop */
+@media (min-width: 992px) {
+  .col-lg-2-4 {
+    width: 20%;
+  }
+}
+
+/* animation */
+.fade-up.show {
+  animation: fadeUp 0.7s ease forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.clients-btn-wrap {
+  margin-top: 55px;
+  text-align: center;
+}
+
+.clients-btn {
+  display: inline-block;
+  padding: 15px 34px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #7c3aed, #2563eb);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 15px 35px rgba(124, 58, 237, 0.28);
+  transition: 0.35s ease;
+}
+
+.clients-btn:hover {
+  color: white;
+  transform: translateY(-4px);
+  box-shadow: 0 22px 45px rgba(124, 58, 237, 0.4);
+}

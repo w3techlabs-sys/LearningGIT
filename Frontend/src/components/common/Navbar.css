@@ -1,0 +1,89 @@
+
+section {
+  scroll-margin-top: 100px;
+}
+.w3-navbar {
+  background: rgba(5, 13, 26, 0.35);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--c-border);
+  padding: 14px 0;
+  transition: .3s;
+  z-index: 1000;
+}
+
+.w3-navbar--scrolled {
+  background: rgba(5, 13, 26, 0.95);
+  box-shadow: 0 4px 40px rgba(0,0,0,.4);
+  padding: 10px 0;
+}
+
+.w3-brand {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.w3-brand__name {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.w3-brand__sub {
+  font-size: .65rem;
+  color: var(--c-muted);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.w3-nav-link {
+  color: var(--c-muted) !important;
+  padding: 8px 14px !important;
+  border-radius: 8px;
+  transition: .3s;
+}
+
+.w3-nav-link:hover {
+  color: white !important;
+  background: rgba(255,255,255,.05);
+}
+
+.w3-btn-cta {
+  background: var(--grad-brand);
+  color: white !important;
+  border-radius: 50px;
+  padding: 10px 24px;
+  font-weight: 600;
+}
+
+.w3-toggler {
+  border: none;
+  background: transparent;
+  box-shadow: none !important;
+}
+
+.w3-toggler__bar {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: white;
+  margin: 5px 0;
+  transition: .3s;
+}
+
+.w3-toggler.open .w3-toggler__bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px,5px);
+}
+
+.w3-toggler.open .w3-toggler__bar:nth-child(2) {
+  opacity: 0;
+}
+
+.w3-toggler.open .w3-toggler__bar:nth-child(3) {
+  transform: rotate(-45deg) translate(5px,-5px);
+}
+.W3Tech-logo{
+    height:60px;
+    width:60px;
+    
+}
