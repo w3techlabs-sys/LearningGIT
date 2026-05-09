@@ -135,8 +135,8 @@
 .card-2 { top: 90px;  right:5px; }
 .card-3 { top: 260px; left: 90px; }  
 .card-4 { top: 280px; right: 2px; }
-.card-5 { top: 150px; left: 180px; }
-.card-6 {   left: 195px;  }
+.card-5 { top: 150px; left: 185px; }
+.card-6 {   left: 200px;  }
 
 @keyframes floatCard{
   0%{transform:translateY(0)}
