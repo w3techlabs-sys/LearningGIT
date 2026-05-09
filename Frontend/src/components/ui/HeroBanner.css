@@ -132,11 +132,11 @@
 /* desktop positions */
 
 .card-1 { top: 60px; left: 40px; }
-.card-2 { top: 90px;  right:10px; }
+.card-2 { top: 90px;  right:5px; }
 .card-3 { top: 260px; left: 90px; }  
 .card-4 { top: 280px; right: 2px; }
 .card-5 { top: 150px; left: 200px; }
-.card-6 {  margin-bottom:2px; left: 240px; }
+.card-6 {   left: 240px; }
 
 @keyframes floatCard{
   0%{transform:translateY(0)}
